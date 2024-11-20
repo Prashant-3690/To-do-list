@@ -1,0 +1,177 @@
+*{
+    background-color: beige;
+}
+.parent{
+   width: 60%;
+   border: 2px solid black;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-top: 2%;
+   border-radius: 2px;
+   background-color: azure;
+  
+}
+
+.subparent{
+    display: flex;
+    justify-content:space-evenly ;
+    background-color: azure;
+}
+
+.subparent>h1{
+ color: rgb(6, 199, 41);
+ font-style: oblique;   
+ background-color: azure;
+}
+
+/* ...........child classs.......... */
+.child{
+    border: 2px solid black;
+    padding: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+   
+}
+.work{
+ 
+    width: 78%;
+    margin-right: 2%;
+    padding: 1.5%;
+ 
+}
+.work>input{
+       height: 100%;
+       width: 80%;
+}
+.work>input:placeholder-shown{
+    font-weight: 500;
+    padding-left: 2%;
+}
+
+.button1{
+    padding: 1%;
+    width: 18%;
+    margin-left: 2%;
+    
+}
+.button1>button{
+    height: 100%;
+    width: 80%;  
+    border-radius: 5px;
+    font-weight: 700;
+}
+.button1>button:hover{
+    background-color:rgb(6, 199, 41) ;
+    color: aliceblue;
+}
+/* ........to - do -list work....... */
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.task>h2{
+    width: 60%;
+}
+.task>h3{
+    justify-content: flex-end;
+    width: 5%;
+    font-size: small;
+    padding-top: 2%;
+    color:rgb(6, 199, 41) ;
+}
+
+.task>h3:hover{
+    text-decoration: underline;
+}
+.task-checkbox{
+    width: 3%;
+}
+
+/* .......summary........ */
+.count{
+    display: flex;
+    justify-content: space-around;
+}
+.count>h3{
+    color: rgb(6, 199, 41);
+}
+.count>h4{
+    padding-right: 3%;
+    color: rgb(6, 199, 41);
+}
+
+/* ...........button......... */
+.done{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+
+}
+.done>button{
+    background-color: rgb(6, 199, 41);
+    color: aliceblue;
+    height: 100%;
+    font-size: x-large;
+    padding: 0.5%;
+    border-radius: 5px;
+}
+.done>button:hover{
+    background-color: black;
+}
+/* ............pop-up........ */
+.p_pop{
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+}
+.pop{
+    top: -80%;
+    position:relative;
+    background-color:#ffffff;
+    width:30%;  
+    padding: 2%;
+}
+.pop_up{
+    height: 80%;
+    color:rgb(6, 199, 41) ;
+    font-size: x-large;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffffff;
+    border-radius: 12px;
+}
+.pop_up>img{
+    height: 80%;
+    width: 80%;
+}
+.pop_up>p{
+    background-color: #ffffff;
+    height: 20%;
+}
+.but2{
+    display: flex;
+    justify-content: center;
+    background-color:#ffffff;
+    height: 20%;
+    margin-top: 3%;
+}
+.but2>button{
+    background-color:rgb(6, 199, 41) ;
+    color: #ffffff;
+    width: 30%;
+    border-radius: 8px;
+    height: 60%;
+    
+}
+
+
+/* ............complete ...... */
